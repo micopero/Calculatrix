@@ -1,0 +1,12 @@
+com.micopero.calculatrix.app-jetified-window-java-1.0.0-beta04-0 /home/micopero/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.micopero.calculatrix.app-core-1.6.0-1 /home/micopero/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.micopero.calculatrix.app-jetified-annotation-experimental-1.1.0-2 /home/micopero/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.micopero.calculatrix.app-jetified-window-1.0.0-beta04-3 /home/micopero/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.micopero.calculatrix.app-main-4 /home/micopero/Development/projects/calculatrix/android/app/src/main/res
+com.micopero.calculatrix.app-release-5 /home/micopero/Development/projects/calculatrix/android/app/src/release/res
+com.micopero.calculatrix.app-pngs-6 /home/micopero/Development/projects/calculatrix/build/app/generated/res/pngs/release
+com.micopero.calculatrix.app-resValues-7 /home/micopero/Development/projects/calculatrix/build/app/generated/res/resValues/release
+com.micopero.calculatrix.app-rs-8 /home/micopero/Development/projects/calculatrix/build/app/generated/res/rs/release
+com.micopero.calculatrix.app-mergeReleaseResources-9 /home/micopero/Development/projects/calculatrix/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.micopero.calculatrix.app-mergeReleaseResources-10 /home/micopero/Development/projects/calculatrix/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.micopero.calculatrix.app-merged_res-11 /home/micopero/Development/projects/calculatrix/build/app/intermediates/merged_res/release
