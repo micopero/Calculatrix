@@ -1,8 +1,8 @@
 <libraries>
   <library
-      name="__local_aars__:/home/micopero/Development/projects/calculatrix/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/micopero/Development/projects/calculatrix/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/micopero/Development/projects/calculatrix/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
       name="io.flutter:flutter_embedding_release:1.0.0-248290d6d50a1bf1a6a246544347c03acda867a5@jar"
       jars="/home/micopero/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-248290d6d50a1bf1a6a246544347c03acda867a5/f9c46cd66c3c6658b4460e430f66c8a30db1a7fd/flutter_embedding_release-1.0.0-248290d6d50a1bf1a6a246544347c03acda867a5.jar"

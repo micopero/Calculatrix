@@ -4,9 +4,9 @@
     minSdkVersion="16"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/home/micopero/Development/projects/calculatrix/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/home/micopero/Development/projects/calculatrix/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/home/micopero/Development/sdk/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/micopero/Development/projects/calculatrix/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/home/micopero/Development/sdk/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -31,9 +31,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/home/micopero/Development/projects/calculatrix/build/app/intermediates/javac/release/classes:/home/micopero/Development/projects/calculatrix/build/app/tmp/kotlin-classes/release:/home/micopero/Development/projects/calculatrix/build/app/kotlinToolingMetadata:/home/micopero/Development/projects/calculatrix/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/javac/release/classes:/home/micopero/Development/git projects/Calculatrix/build/app/tmp/kotlin-classes/release:/home/micopero/Development/git projects/Calculatrix/build/app/kotlinToolingMetadata:/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.micopero.calculatrix"
-      generatedSourceFolders="/home/micopero/Development/projects/calculatrix/build/app/generated/source/buildConfig/release:/home/micopero/Development/projects/calculatrix/build/app/generated/aidl_source_output_dir/release/out:/home/micopero/Development/projects/calculatrix/build/app/generated/renderscript_source_output_dir/release/out:/home/micopero/Development/projects/calculatrix/build/app/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/home/micopero/Development/projects/calculatrix/build/app/generated/res/rs/release:/home/micopero/Development/projects/calculatrix/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/home/micopero/Development/git projects/Calculatrix/build/app/generated/source/buildConfig/release:/home/micopero/Development/git projects/Calculatrix/build/app/generated/aidl_source_output_dir/release/out:/home/micopero/Development/git projects/Calculatrix/build/app/generated/renderscript_source_output_dir/release/out:/home/micopero/Development/git projects/Calculatrix/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/micopero/Development/git projects/Calculatrix/build/app/generated/res/rs/release:/home/micopero/Development/git projects/Calculatrix/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

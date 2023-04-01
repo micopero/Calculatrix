@@ -1,4 +1,4 @@
-#Fri Mar 31 23:19:07 AEDT 2023
-base.0=/home/micopero/Development/projects/calculatrix/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sat Apr 01 15:52:47 AEDT 2023
+base.0=/home/micopero/Development/git projects/Calculatrix/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

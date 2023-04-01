@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/home/micopero/Development/projects/calculatrix/android/app"
+    dir="/home/micopero/Development/git projects/Calculatrix/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.2.0"
-    buildFolder="/home/micopero/Development/projects/calculatrix/build/app"
+    buildFolder="/home/micopero/Development/git projects/Calculatrix/build/app"
     bootClassPath="/home/micopero/Android/Sdk/platforms/android-33/android.jar:/home/micopero/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">

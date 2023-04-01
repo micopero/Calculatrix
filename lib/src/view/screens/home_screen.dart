@@ -12,18 +12,20 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: CalculatrixColors.kBackgroundSecondary,
-        body: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const ThemeSettings(),
-                SizedBox(height: 5.h),
-                const CalculatorScreen(),
-                SizedBox(height: 5.h),
-                const CalculatorButtons(),
-              ],
+        body: SingleChildScrollView(
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const ThemeSettings(),
+                  SizedBox(height: 5.h),
+                  const CalculatorScreen(),
+                  SizedBox(height: 5.h),
+                  const CalculatorButtons(),
+                ],
+              ),
             ),
           ),
         ));
