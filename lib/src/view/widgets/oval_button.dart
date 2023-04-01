@@ -7,10 +7,12 @@ class OvalButton extends StatelessWidget {
     required this.symbol,
     this.isVertical = false,
     this.onPressed,
+    this.borderColor = Colors.black38,
   });
 
   final String symbol;
   final bool isVertical;
+  final Color borderColor;
   final void Function()? onPressed;
 
   @override
@@ -21,8 +23,8 @@ class OvalButton extends StatelessWidget {
       child: ElevatedButton(
         style: ButtonStyle(
           backgroundColor: const MaterialStatePropertyAll(Colors.grey),
-          shape: MaterialStatePropertyAll(StadiumBorder(
-              side: BorderSide(width: 1.h, color: Colors.black38))),
+          shape: MaterialStatePropertyAll(
+              StadiumBorder(side: BorderSide(width: 1.h, color: borderColor))),
         ),
         onPressed: onPressed,
         child: Text(symbol, style: TextStyle(fontSize: 3.h)),

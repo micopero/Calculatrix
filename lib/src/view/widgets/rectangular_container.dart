@@ -5,9 +5,11 @@ class RectangularContainer extends StatelessWidget {
   const RectangularContainer({
     super.key,
     this.value,
+    this.borderColor = Colors.black38,
   });
 
   final String? value;
+  final Color borderColor;
 
   @override
   Widget build(BuildContext context) {
@@ -15,14 +17,14 @@ class RectangularContainer extends StatelessWidget {
       height: 15.h,
       width: 50.h,
       child: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           color: Colors.grey,
-          borderRadius: BorderRadius.all(Radius.circular(20)),
+          borderRadius: const BorderRadius.all(Radius.circular(20)),
           border: Border(
-              top: BorderSide(width: 10, color: Colors.black38),
-              right: BorderSide(width: 10, color: Colors.black38),
-              left: BorderSide(width: 10, color: Colors.black38),
-              bottom: BorderSide(width: 10, color: Colors.black38)),
+              top: BorderSide(width: 10, color: borderColor),
+              right: BorderSide(width: 10, color: borderColor),
+              left: BorderSide(width: 10, color: borderColor),
+              bottom: BorderSide(width: 10, color: borderColor)),
         ),
         child: Padding(
           padding: const EdgeInsets.all(8.0),

@@ -7,12 +7,12 @@ class CalculatrixRouter {
     routes: <GoRoute>[
       GoRoute(
         name: "home",
-        path: "/",
+        path: "/home",
         builder: (context, state) => const HomeScreen(),
       ),
       GoRoute(
         name: "splash",
-        path: "/splash",
+        path: "/",
         builder: (context, state) => const SplashScreen(),
       ),
     ],

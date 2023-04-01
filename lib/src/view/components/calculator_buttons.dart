@@ -1,4 +1,5 @@
 import 'package:calculatrix/src/controllers/calculator_controller.dart';
+import 'package:calculatrix/src/controllers/theme_controller.dart';
 import 'package:calculatrix/src/view/widgets/circular_button.dart';
 import 'package:calculatrix/src/view/widgets/oval_button.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,9 @@ class CalculatorButtons extends ConsumerWidget {
     final calculatorController =
         ref.read(calculatorControllerProvider.notifier);
 
+    final themeController = ref.watch(themeControllerProvider);
+    Color themeColor = themeController.getThemeColor;
+
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.min,
@@ -22,18 +26,22 @@ class CalculatorButtons extends ConsumerWidget {
           children: [
             CircularButton(
                 symbol: "7",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("7")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "8",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("8")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "9",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("9")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "+",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("+")),
             const ButtonsSpacer(),
           ],
@@ -44,18 +52,22 @@ class CalculatorButtons extends ConsumerWidget {
           children: [
             CircularButton(
                 symbol: "4",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("4")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "5",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("5")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "6",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("6")),
             const ButtonsSpacer(),
             CircularButton(
                 symbol: "-",
+                borderColor: themeColor,
                 onPressed: () => calculatorController.updateScreenValue("-")),
             const ButtonsSpacer(),
           ],
@@ -71,16 +83,19 @@ class CalculatorButtons extends ConsumerWidget {
                   children: [
                     CircularButton(
                         symbol: "3",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.updateScreenValue("3")),
                     const ButtonsSpacer(),
                     CircularButton(
                         symbol: "2",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.updateScreenValue("2")),
                     const ButtonsSpacer(),
                     CircularButton(
                         symbol: "1",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.updateScreenValue("1")),
                     const ButtonsSpacer(),
@@ -92,16 +107,19 @@ class CalculatorButtons extends ConsumerWidget {
                   children: [
                     CircularButton(
                         symbol: "0",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.updateScreenValue("0")),
                     const ButtonsSpacer(),
                     CircularButton(
                         symbol: ".",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.updateScreenValue(".")),
                     const ButtonsSpacer(),
                     CircularButton(
                         symbol: "C",
+                        borderColor: themeColor,
                         onPressed: () =>
                             calculatorController.clearScreenValue()),
                     const ButtonsSpacer(),
@@ -111,6 +129,7 @@ class CalculatorButtons extends ConsumerWidget {
             ),
             OvalButton(
                 symbol: "=",
+                borderColor: themeColor,
                 isVertical: true,
                 onPressed: () => calculatorController.evaluateScreenValue()),
             const ButtonsSpacer(),
